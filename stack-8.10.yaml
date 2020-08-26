@@ -1,14 +1,13 @@
 # For advanced use and comprehensive documentation of the format, please see:
 # https://docs.haskellstack.org/en/stable/yaml_configuration/
 
-resolver: nightly-2020-08-11
+resolver: nightly-2020-08-26
 
 packages:
 - .
 
 extra-deps:
-- github: tmcdonell/cuda
-  commit: da3fd9ca9c0c4695e80e1927d529861a693db7e3
+- cuda-0.10.2.0
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
