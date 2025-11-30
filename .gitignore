@@ -2,6 +2,7 @@
 /cufft.buildinfo
 /cufft.buildinfo.generated
 /dist/
+/dist-newstyle/
 .stack-work
 .cabal-sandbox
 cabal.sandbox.config
