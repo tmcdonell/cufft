@@ -21,10 +21,8 @@ module Foreign.CUDA.FFT.Stream (
 import Foreign.CUDA.Driver.Stream                         ( Stream(..) )
 import Foreign.CUDA.FFT.Plan
 import Foreign.CUDA.FFT.Error
-import Foreign.CUDA.FFT.Internal.C2HS
 
 -- system
-import Foreign
 import Foreign.C
 
 #include <cbits/wrap.h>
